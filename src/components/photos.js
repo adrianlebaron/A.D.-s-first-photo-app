@@ -3,7 +3,7 @@ import Dropzone from 'react-dropzone';
 import request from 'superagent';
 
 const CLOUDINARY_UPLOAD_PRESET = "tniodfjg";
-const CLOUDINARY_UPLOAD_URL = "";
+const CLOUDINARY_UPLOAD_URL = "https://api.cloudinary.com/v1_1/whistle-construction/image/upload";
 
 export default class Photos extends Component {
     constructor(props) {
